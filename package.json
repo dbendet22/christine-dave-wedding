@@ -2,7 +2,8 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "engines": {
-    "node": "11.13.0"
+    "node": "11.13.0",
+    "npm": "6.7.0"
   },
   "private": true,
   "homepage": "https://dbendet22.github.io/me",
