@@ -12,9 +12,28 @@ export default class Travel extends Component {
                 <div className="col-md-12">
                     <div className="travel-desc">
                     {/*<span className="heading-meta">Wedding Details</span> */}
-                    <h2 className="colorlib-heading">Travel</h2>
-                    <p>blah blah blah blah blahblah blah</p>
-                    <p>blahblah blah blah blahblah blah blah blahblah blah blah blahblahblahblah blah blah blah blah blah blahblah blah </p>
+                    <h2 className="colorlib-heading">Where To Stay</h2>
+                    <hr/> 
+                    <h4>Two Recommended Hotels</h4>
+                    
+                    <span><a href="https://themainlandnj.com/hotel/" target='blank'> The Mainland</a> | 151 NJ-72 | Manahawkin, NJ 08050 | 609-481-6100 | <a href="https://goo.gl/maps/UJ7t3uDWLj2Z7w869" target='blank'>Google Maps</a>
+                    </span>
+                    <ul>
+                        <li>The Mainland is a nicer place than Drifting Sands, and quite close to Bonnet island, though it's a bit more expensive.</li>
+                    </ul><br></br>
+
+                    <span><a href="https://www.dslbi.com/" target='blank'> Drifting Sands LBI</a> | 119 E 9th St | Ship Bottom, NJ 08008 | 609-494-1123  | <a href="https://goo.gl/maps/XFEEWm2XicwbbKE29" target='blank'>Google Maps</a>                     
+                    </span>
+                    <ul>
+                        <li>Drifting Sands is more affordable and very close to Bonnet Island, but is not quite as nice as The Mainland.</li>
+                    </ul><br></br>
+                    
+                    <h4>Please Note</h4>
+                    <ul>
+                        <li>We've reserved a discounted room block for Saturday night at both hotels.</li>
+                        <li>Mention the Degenaars-Bendet room block when booking for the discounted rate!</li>
+                        <li>Frequent shuttles will be going between the hotel and Bonnet Island to make getting around super convenient.</li>                        
+                    </ul>
                     </div>
                 </div>
                 </div>

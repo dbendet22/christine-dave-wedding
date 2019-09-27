@@ -1,3 +1,20 @@
+/*colors
+darkestblue = #202c5c
+darkblue = #425C73
+lightblue = #7E909E
+otherblue = #7896AE
+lightpink = #D6B2A6
+beige = #E9DCCB
+dusty lavender = #B797AC 
+link blue = #377fcc
+actually light blue = #D0DFFC
+
+A4C2CC
+light green = #C4DDD7
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -12,22 +29,25 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 400;
+  /*font-family: "Quicksand", Arial, sans-serif;*/
+  font-weight: 600;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  /*color: rgba(0, 0, 0, 0.7); */
+  color: #202c5c;
+  font-family: 'Montserrat', sans-serif;
+}
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: #377fcc;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: #377fcc;
     outline: none;
     text-decoration: none !important; }
 
@@ -35,10 +55,15 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 400;
+  color: #202c5c;
+  /*font-family: "Playfair Display", Georgia, serif;*/
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: 800;
   margin: 0 0 30px 0; }
+
+h4 {
+  margin-bottom: 10px;
+}
 
 figure {
   margin-bottom: 2.5em;
@@ -50,7 +75,9 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    /*font-family: "Quicksand", Arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -78,12 +105,17 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow: scroll;
+  overflow: auto;
   z-index: 1001;
-  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+  background-color: #E9DCCB;  
+  font-weight: 600;
+  font-size: 15px;    
+  color: #202c5c;
+  font-family: 'Montserrat', sans-serif;
+}
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -104,7 +136,25 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .email {
     display: block;
-    font-size: 12px;}
+    font-weight: 600;
+    font-size: 13px;    
+    color: #202c5c;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #colorlib-aside .thanks {
+    display: block;    
+    font-weight: 600;
+    font-size: 13px;    
+    color: #202c5c;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    bottom: 0px;
+    left: 23px;
+    line-height: 2.5;
+    text-align: center;
+  }
+
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;
@@ -119,17 +169,29 @@ figure {
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
-      color: #000;
+      color: #202c5c;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
-    width: 100%; }
+    width: 100%; 
+    font-weight: 600;
+    font-size: 15px;    
+    color: #202c5c;
+    font-family: 'Montserrat', sans-serif;}
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: block !important; }
+      display: block !important;
+      font-weight: 600;
+      font-size: 15px;    
+      color: #202c5c;
+      font-family: 'Montserrat', sans-serif; }
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
-      padding: 0; }
+      padding: 0; 
+      font-weight: 600;
+      font-size: 15px;    
+      color: #202c5c;
+      font-family: 'Montserrat', sans-serif; }
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
@@ -140,7 +202,11 @@ figure {
         font-size: 12px;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 15px;    
+        color: #202c5c;
+        font-family: 'Montserrat', sans-serif; }
         #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
@@ -149,7 +215,11 @@ figure {
           font-family: "Quicksand", Arial, sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
-          transition: 0.3s; }
+          transition: 0.3s;           
+          font-weight: 600;
+          font-size: 15px;    
+          color: #202c5c;
+          font-family: 'Montserrat', sans-serif; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -157,7 +227,7 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #2c98f0;
+            background-color: #377fcc;
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -168,10 +238,11 @@ figure {
             -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+            color: #377fcc;}
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #377fcc; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -180,7 +251,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
-          color: #2c98f0; }
+          color: #377fcc; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -226,7 +297,11 @@ figure {
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+  background-color: #FFF;
+
+}
+
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
@@ -365,7 +440,9 @@ body.offcanvas {
     transform: translateX(300px); }
 
 .colorlib-narrow-content {
-  padding: 0 2.5em; }
+  padding: 0 2.5em; 
+  margin-bottom: 0px;
+}
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
@@ -407,11 +484,11 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 2em;
-  font-weight: 700;
+  margin-bottom: 1px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  line-height: 1.8;
+  letter-spacing: 3px;
+  line-height: 1;
   position: relative; }
   .colorlib-heading span {
     display: block; }
@@ -581,7 +658,9 @@ body.offcanvas {
   margin-left: 60px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
-  background-clip: padding-box; }
+  background-clip: padding-box;
+  background-color: #C4DDD7; 
+  border-radius: 20px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
   content: '';
@@ -1429,3 +1508,108 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+/*.image_info {
+  background-repeat: no-repeat;    
+  background-size: cover;
+  position: absolute;
+  width: 100%;    
+  overflow: visible; 
+  height: 500px;     
+}*/
+
+.js-fullheight-altered {  
+  width: 60%;  
+  margin: 0px;
+  left: 20%;
+  /*padding-left: 100px;*/
+  /*padding-right: 100px;*/
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+
+.sidebar_link {
+  color: #377fcc;
+}
+
+.top_header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #202c5c;
+}
+
+.img-responsive {
+  border-radius: 20px;
+}
+
+.cartoon-img-responsive {
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+.colorlib-travel {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;  
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+  position: relative;
+  left:4%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.icon-heart {
+  font-size: 40px;
+  line-height: 0.4;
+}
+
+hr {
+  border-top: 2px solid #A4C2CC;
+}
+
+.container-fluid {
+  background-color: #FFF;
+  background-image: url('/images/arrangement-green-leaves-row-green-backdrop_23-2148217784.jpg');
+  background-repeat: no-repeat;    
+  background-size: cover;    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*position: absolute;*/
+  width: 100%;
+  height: 780px;
+  margin-bottom:30px;
+}

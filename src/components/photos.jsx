@@ -7,56 +7,48 @@ export default class Photos extends Component {
         <section className="colorlib-experience" data-section="photos">
           <div className="colorlib-narrow-content">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">                
+              <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">                
                 <h2 className="colorlib-heading animate-box">Photos!</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Here is thing 1</h2>
-                        <p>And the description!</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Here is thing 2</h2>
-                        <p>And the description!</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Here is thing 3</h2>
-                        <p>And the description!</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
-                    </div>
-                  </article>
-                </div>
+                <hr/> 
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="column">
+              <img src='/images/weddingwebsitephotos/A5265F74-CD80-4E7A-B4D1-2D7608327B23.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/E194AC0B-2DE7-4E60-BAC4-80866FD36299.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_0071.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_0251.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_5072.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_5282.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+            </div>
+            <div class="column">
+              <img src='/images/weddingwebsitephotos/IMG_0737.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_0956.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_0971.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1240.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_4778.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_4792.JPG' alt="boohoo" className="cartoon-img-responsive"/>
+            </div>            
+            <div class="column">
+              <img src='/images/weddingwebsitephotos/IMG_1245.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1332.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1333.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1335.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1345.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1346.PNG' alt="boohoo" className="cartoon-img-responsive"/>
+            </div>            
+            <div class="column">
+              <img src='/images/weddingwebsitephotos/IMG_1336.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1337.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1338.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1339.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1340.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+              <img src='/images/weddingwebsitephotos/IMG_1342.jpg' alt="boohoo" className="cartoon-img-responsive"/>
+            </div>                                                
+          </div>
+
         </section>
       </div>
     )

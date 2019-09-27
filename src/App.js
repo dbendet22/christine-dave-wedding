@@ -21,16 +21,13 @@ class App extends Component {
          	<Sidebar></Sidebar>
   				<div id="colorlib-main">
   					<Introduction></Introduction>
-  					{/* <About></About> */}
-  					<Timeline></Timeline>
             <Details></Details>
             <Travel></Travel>
-            <Things></Things>
+            <RSVP></RSVP>    
+            <Registry></Registry>                    
             <Met></Met>
             <Proposal></Proposal>            
-            <Photos></Photos>
-            <Registry></Registry>
-            <RSVP></RSVP>
+            <Photos></Photos>            
           </div>
       	</div>
       </div>
