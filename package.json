@@ -13,6 +13,7 @@
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
     "travis": "^0.1.1",
+    "webpack": "^4.41.0",
     "yarn": "^1.13.0"
   },
   "scripts": {
@@ -21,9 +22,9 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postinstall": "webpack",
-    "heroku-postbuild": "webpack -p"
+    "eject": "react-scripts eject"
+    // "postinstall": "webpack",
+    // "heroku-postbuild": "webpack -p"
   },
   "eslintConfig": {
     "extends": "react-app"
