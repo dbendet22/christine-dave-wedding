@@ -14,7 +14,7 @@ export default class Registry extends Component {
                     {/*<span className="heading-meta">Wedding Details</span> */}
                     <h2 className="colorlib-heading">Registry</h2>
                     <hr/>                                                               
-                    <span><a className="email" href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547971586?eventType=Wedding" target="_blank">Click here to view our wedding registry!</a></span><br></br>
+                    <span><a className="email" href="https://www.zola.com/registry/bendetdegenaarswedding" target="_blank">Click here to view our wedding registry!</a></span><br></br>
                     (needs to be updated further)
                     </div>
                 </div>

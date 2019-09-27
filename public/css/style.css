@@ -1613,3 +1613,43 @@ hr {
   height: 780px;
   margin-bottom:30px;
 }
+
+@media screen and (min-width: 900px) {
+  .container-fluid {
+    width: 100%;
+    height: 1280px;
+    margin-bottom:30px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .top_header {    
+    display: none;
+  }
+
+  .js-fullheight-altered {  
+    width: 100%;  
+    margin: 0px;
+    left: 0%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }  
+
+  .container-fluid {
+    width: 100%;
+    height: 0px;
+    margin-bottom:30px;
+    margin-top:60px;
+    border-radius: 20px;
+    background-image: none;
+  }  
+
+  .colorlib-heading {
+    margin-bottom: 5px;
+  }
+
+  .colorlib-experience {
+   padding-bottom: 5px; 
+  }
+}
