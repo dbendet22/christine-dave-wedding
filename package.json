@@ -22,9 +22,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    // "postinstall": "webpack",
-    // "heroku-postbuild": "webpack -p"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
