@@ -1541,13 +1541,17 @@ body.offcanvas {
 }
 
 .img-responsive {
-  border-radius: 20px;
+  border-radius: 20px;  
+}
+
+.rotate_image {
+  transform: rotate(90deg);
 }
 
 .cartoon-img-responsive {
   width: 50px;
   margin-bottom: 20px;
-  margin-left: 0px;
+  margin-left: 0px;  
 }
 
 .colorlib-travel {
