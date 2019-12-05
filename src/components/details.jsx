@@ -8,7 +8,7 @@ export default class Details extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
-                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div className="row row-bottom-padded-sm animateaedfadfdsf" data-animate-effect="fadsfadfa">
                 <div className="col-md-12">
                     <div className="details-desc">
                     {/*<span className="heading-meta">Wedding Details</span> */}

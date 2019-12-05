@@ -15,7 +15,6 @@ export default class Registry extends Component {
                     <h2 className="colorlib-heading">Registry</h2>
                     <hr/>                                                               
                     <span><a className="email" href="https://www.zola.com/registry/bendetdegenaarswedding" target="_blank">Click here to view our wedding registry!</a></span><br></br>
-                    (needs to be updated further)
                     </div>
                 </div>
                 </div>
