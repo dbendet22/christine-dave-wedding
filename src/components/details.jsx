@@ -15,7 +15,7 @@ export default class Details extends Component {
                     <h2 className="colorlib-heading">Wedding Details</h2>
                     <hr/>
                     <h4>Date</h4>
-                    <span>Saturday, September 26 2020</span> <br></br><br></br>
+                    <span>Saturday, September 4 2021</span> <br></br><br></br>
                     <h4>Location</h4>
                        <a href="https://weddingsofdistinctionnj.com/venues/bonnet-island-estate/" target='blank'>Bonnet Estate Island </a> <br></br>
                        2380 E Bay Ave<br></br> 
