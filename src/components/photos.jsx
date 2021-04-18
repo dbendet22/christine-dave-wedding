@@ -18,7 +18,7 @@ export default class Photos extends Component {
 
           <div class="row"> 
             <div class="column">
-              <a href="https://photos.app.goo.gl/Y7Wta4v8pgxbqvVT8" target="blank">Clicks here to see our engagement photos!</a>
+              <a href="https://photos.app.goo.gl/Y7Wta4v8pgxbqvVT8" target="blank">Click here to see our engagement photos!</a>
             </div>
           </div>
 
